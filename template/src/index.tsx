@@ -1,8 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import App from "./app";
 import reportWebVitals from "./reportWebVitals";
 
+/**
+ * Rendering as JSX is required for auto reload to work.
+ * I'm not sure why but a fix is more than welcome.
+ */
 ReactDOM.render(
     <React.StrictMode>
         <App />
