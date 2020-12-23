@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./app";
-import reportWebVitals from "./reportWebVitals";
+import reportWebVitals from "./core/reportWebVitals";
 
 /**
  * Rendering as JSX is required for auto reload to work.
