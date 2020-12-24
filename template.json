@@ -2,7 +2,8 @@
     "package": {
         "scripts": {
             "storybook": "start-storybook -p 6006 -s public",
-            "build-storybook": "build-storybook -s public"
+            "build:storybook": "build-storybook -s public",
+            "build:docs": "typedoc --out docs src --theme node_modules/typedoc-twilio-theme/bin"
         },
         "dependencies": {
             "@testing-library/jest-dom": "^5.11.4",
@@ -36,7 +37,9 @@
             "@storybook/node-logger": "^6.2.0-alpha.9",
             "@storybook/preset-create-react-app": "^3.1.5",
             "@storybook/react": "^6.2.0-alpha.9",
-            "babel-loader": "8.1.0"
+            "babel-loader": "8.1.0",
+            "typedoc": "^0.19.2",
+            "typedoc-twilio-theme": "^1.0.1"
         }
     }
 }
