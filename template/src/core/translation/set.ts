@@ -7,7 +7,7 @@ interface Count {
 }
 
 export interface TranslationSet {
-    edit: Message<void>;
-    cancel: Message<void>;
+    edit: string;
+    cancel: string;
     user: Message<Count>;
 }

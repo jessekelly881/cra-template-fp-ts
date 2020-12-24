@@ -26,6 +26,7 @@ const languageMap: LanguageSetMap = {
  * The translation function. Completely typesafe. Replaces i18n t function.
  *
  * @example t("en").user({ count: 2 });
+ * @example t("en").edit;
  */
 const t = (lang: SupportedLanguage) => languageMap[lang];
 
